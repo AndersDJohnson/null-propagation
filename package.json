@@ -1,0 +1,21 @@
+{
+  "name": "null-propagation",
+  "version": "1.0.0",
+  "description": "Emulate null propagation operator.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel-node test",
+    "build": "yarn build:node && yarn build:browser",
+    "build:browser": "webpack",
+    "build:node": "babel src/index.js -o dist/src/index.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^20.0.1",
+    "webpack": "^2.5.1"
+  }
+}
