@@ -4,6 +4,8 @@
   "description": "Emulate null propagation operator.",
   "main": "index.js",
   "license": "MIT",
+  "repo": "AndersDJohnson/null-propagation",
+  "author": "Anders D. Johnson",
   "scripts": {
     "test": "babel-node test",
     "build": "yarn build:node && yarn build:browser",
