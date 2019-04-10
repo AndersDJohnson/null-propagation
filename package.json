@@ -1,11 +1,11 @@
 {
   "name": "null-propagation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emulate null propagation operator.",
   "main": "index.js",
   "license": "MIT",
   "repo": "AndersDJohnson/null-propagation",
-  "author": "Anders D. Johnson",
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "scripts": {
     "test": "babel-node test",
     "build": "yarn build:node && yarn build:browser",
